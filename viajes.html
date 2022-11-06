@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viajes - Joel</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <form method="post" action="index.html">
+                <button>Inicio</button>
+            </form>
+        </div>
+        <div id="main-container">
+            <table class="second_table" border="1">
+                <tbody>
+                    <tr>
+                        <td class="title" colspan="2">Viajes</td>
+                    </tr>
+                    <tr>
+                        <td class="clave">Mirador de Yanahuara</td>
+                        <td>
+                            <img src="https://www.peruhop.com/wp-content/uploads/lugares-para-visitar-en-arequipa-mirador-2-790x395.jpg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="clave">Plaza de Arequipa</td>
+                        <td>
+                            <img src="https://volawaytravel.pe/blog/wp-content/uploads/2019/06/mejores-atractivos-turisticos-Arequipa-Plaza-de-Armas.jpg">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h3>Consultas:</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nombre:
+                    </td>
+                    <td>
+                        <input id="consulta_nombre" type="text" placeholder="Nombre...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input id="consulta_email" type="text" placeholder="Email...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Consulta:
+                    </td>
+                    <td>
+                        <textarea id="consulta_consulta"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button onclick="enviarConsulta()">Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>    
+    </body>
+</html>

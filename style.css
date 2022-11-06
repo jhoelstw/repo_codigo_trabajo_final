@@ -1,0 +1,113 @@
+table {
+    margin: 0 auto;
+}
+#title {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 20px;
+    font-family: monospace;
+}
+.valor {
+    padding: 3px;
+    width: 200px;
+}
+.clave {
+    padding: 3px;
+    width: 80px;
+}
+.valor {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+#main_container {
+    padding: 10px;
+    background-color: rgb(143, 143, 250);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+body {
+    background-image: url(https://fondosmil.com/fondo/54342.jpg);
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+}
+.upperspace {
+    height: 25px;
+}
+h3 {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-family: monospace;
+    color: rgb(0, 0, 161);
+}
+h1 {
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    border-radius: 5px;
+    width: 600px;
+    margin: 0 auto;
+}
+button {
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: cadetblue;
+    width: 100px;
+    height: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    text-align: left;
+}
+img {
+    width: 600px;
+}
+.second_table {
+    text-align: center;
+    color: azure;
+}
+
+.second_table .title {
+    background-color: rgb(143, 143, 250);
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+.second_table .clave {
+    margin-left: 50px;
+    padding: 25px;
+    font-family: 'Lucida Sans';  
+}
+.comentario {
+    height: 20px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(143, 143, 250);
+    background-image: url('https://happytravel.viajes/wp-content/uploads/2020/04/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png');
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#btnDiagramas {
+    width: 200px;
+}
+
+#divBtnDiagramas {
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}

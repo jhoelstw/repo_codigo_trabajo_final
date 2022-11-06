@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inicio - Joel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="upperspace"></div>
+    <h1>Blog de Viaje a Arequipa</h1>
+    <div class="upperspace"></div>
+    <div id="main_container">
+        <table>
+            <tr>
+                <td id="title" colspan="2" class="table_title"> Datos Personales</td>
+            </tr>
+            <tr>
+                <td class="clave">Nombre:</td>
+                <td class="valor">Joel</td>
+            </tr>
+            <tr>
+                <td class="clave">Apellidos:</td>
+                <td class="valor">Huaman Zarate</td>
+            </tr>
+            <tr>
+                <td class="clave">Celular:</td>
+                <td class="valor">987654321</td>
+            </tr>
+            <tr>
+                <td class="clave">Correo:</td>
+                <td class="valor">joel@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <h3>Historia - Viajes</h3>
+                    <textarea>Mi persona y unos compañeros de estudio, participamos en un concurso donde logramos ganar el primer puesto y nos premiaron con un viaje a Arequipa, allí visitamos varios lugares y también participamos de charlas en la Universidad Católica San Pablo.
+                        </textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <form class="formulario" method="post" action="viajes.html">
+                        <button>Viajes</button>
+                    </form>
+                </td>
+                <td>
+                    <form class="formulario" method="post" action="comidas.html">
+                        <button>Comidas</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="divBtnDiagramas">
+                        <form class="formulario" method="post" action="diagramas.html">
+                            <button id="btnDiagramas">Diagrama de Casos de Uso</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>Contacto:</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nombre:
+                </td>
+                <td>
+                    <input id="consulta_nombre" type="text" placeholder="Nombre...">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input id="consulta_email" type="text" placeholder="Email...">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Celular:
+                </td>
+                <td>
+                    <input id="consulta_celular" type="text" placeholder="Celular...">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mensaje:
+                </td>
+                <td>
+                    <textarea id="consulta_consulta"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button onclick="enviarMensaje()">Enviar</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>Comentarios:</h3>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div class="avatar">
+
+                    </div>
+                </td>
+                <td>
+                    <textarea class="comentario" id="comentario_id"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button onclick="publicarComentario()">Publicar</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

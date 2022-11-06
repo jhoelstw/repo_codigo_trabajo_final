@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comidas - Joel</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <form method="post" action="index.html">
+                <button>Inicio</button>
+            </form>
+        </div>
+        <div id="main-container">
+            <table class="second_table" border="1">
+                <tbody>
+                    <tr>
+                        <td class="title" colspan="2">Comidas</td>
+                    </tr>
+                    <tr>
+                        <td class="clave">Queso Helado:</td>
+                        <td>
+                            <img src="https://imgmedia.buenazo.pe/475x475/buenazo/original/2021/08/12/611574efddfecc54ed61adcb.jpg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="clave">Kola Escocesa</td>
+                        <td>
+                            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/XT5W6UL2MNAAPDDQ7JZEMTPUNM.png">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h3>Consultas:</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nombre:
+                    </td>
+                    <td>
+                        <input id="consulta_nombre" type="text" placeholder="Nombre...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input id="consulta_email" type="text" placeholder="Email...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Consulta:
+                    </td>
+                    <td>
+                        <textarea id="consulta_consulta"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button onclick="enviarConsulta()">Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>  
+    </body>
+</html>
